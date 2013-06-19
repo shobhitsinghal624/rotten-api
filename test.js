@@ -1,4 +1,4 @@
-var r = require('./node-rotten')("YOUR_API_KEY");
+var r = require('./rotten')("YOUR_API_KEY");
 
 r.search('The Godfather', function (err, res) {
     if (!err) {

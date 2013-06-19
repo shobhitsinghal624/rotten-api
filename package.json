@@ -1,0 +1,31 @@
+{
+  "name": "rotten-api",
+  "version": "1.0",
+  "description": "A simple NodeJS interface to the Rotten Tomatoes API",
+  "homepage": "https://github.com/laurentDezitter/rotten-api",
+  "author": "Laurent Dezitter <laurent.dezitter@gmail.com> (https://github.com/laurentDezitter)",
+  "keywords": [
+    "rotten",
+    "rotten tomatoes",
+    "rotten tomatoes API",
+    "interface",
+    "node"
+  ],
+  "contributors": [
+    "Laurent Dezitter <laurent.dezitter@gmail.com> (https://github.com/laurentDezitter)"
+  ],
+  "bugs": {
+    "mail": "laurent.dezitter@gmail.com",
+    "url": "https://github.com/laurentDezitter/rotten-api/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "main": "rotten.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/laurentDezitter/rotten-api.git"
+  }
+}
