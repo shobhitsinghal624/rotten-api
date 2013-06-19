@@ -1,22 +1,18 @@
 # node-rotten
 
-node-rotten is a simple to use NodeJS interface to the [Rotten Tomatoes API](http://developer.rottentomatoes.com/).
+node-rotten is a simple to use NodeJS interface to the [Rotten Tomatoes API](http://developer.rottentomatoes.com/) that allows you to :
 
-You can 
-    - search for movies based on a query string
-    - get information on a single movie with its id (or IMDB id)
-    - get similar movies of a given movie id
-    - get the full cast of a movie
-    - ...
+- search for movies based on a query string
+- get information on a single movie with its id (or IMDB id)
+- get similar movies of a given movie id
+- get the full cast of a movie
+- ...
     
-Every callback takes two arguments, an `error` object and a `response` object.
+Every callback takes two arguments, an `error` object and a `response` object.  
 In the examples below the errors are not handled, this is not recommended.
-
-Oh, and one more thing, this module is certified fresh !
-
 ## Install
 
-Coming soon...
+`npm install node-rotten`
 
 ## Getting Started
 
@@ -66,7 +62,7 @@ will output :
 
 ### Get information on a single movie.
 
-By supplying the movie's id (possibly retrieved thanks to a search query.
+By supplying the movie's id (possibly retrieved thanks to a search query)
 
 ```js
 r.get("12911", function (err, res) {
