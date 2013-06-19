@@ -1,6 +1,6 @@
-# node-rotten
+# rotten-api
 
-node-rotten is a simple to use NodeJS interface to the [Rotten Tomatoes API](http://developer.rottentomatoes.com/) that allows you to :
+rotten-api is a simple to use NodeJS interface to the [Rotten Tomatoes API](http://developer.rottentomatoes.com/) that allows you to :
 
 - search for movies based on a query string
 - get information on a single movie with its id (or IMDB id)
@@ -12,13 +12,13 @@ Every callback takes two arguments, an `error` object and a `response` object.
 In the examples below the errors are not handled, this is not recommended.
 ## Install
 
-`npm install node-rotten`
+`npm install rotten-api`
 
 ## Getting Started
 
 See the Rotten Tomatoes API [web site](http://developer.rottentomatoes.com/) to get your API key.
 ```js
-var r = require('node-rotten')("YOU_API_KEY");
+var r = require('rotten-api')("YOU_API_KEY");
 ```
 
 ### Searching for movies
